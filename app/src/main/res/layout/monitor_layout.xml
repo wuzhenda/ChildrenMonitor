@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cd.wu.childrenmonitor.MonitorView xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorWhite"
+android:padding="2dip">
+
+    <LinearLayout  android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="22dip">
+
+        <TextView
+            android:id="@+id/tv_left"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textSize="50dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/tv_right"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textSize="50dp"
+            android:text="?" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="22dip">
+
+        <Button
+            android:id="@+id/bt_result1"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="" />
+        <Button
+            android:id="@+id/bt_result2"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="" />
+        <Button
+            android:id="@+id/bt_result3"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="22dip">
+
+            <Button
+                android:id="@+id/bt_result4"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="" />
+            <Button
+                android:id="@+id/bt_result5"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="" />
+            <Button
+                android:id="@+id/bt_result6"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="22dip">
+
+            <Button
+                android:id="@+id/bt_result7"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="" />
+            <Button
+                android:id="@+id/bt_result8"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="" />
+            <Button
+                android:id="@+id/bt_result9"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.cd.wu.childrenmonitor.MonitorView>
